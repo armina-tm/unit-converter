@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en"  dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Unit Converter</title>
+      <link rel="stylesheet" href="style.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div id=container">
+            <div class="title-btn">
+                <h1>METRIC / IMPERIAL UNIT CONVERSION</h1>
+                <input type="text" id="input-el"/>
+                <button id="convert-btn">Convert</button>
+                <p id="message"></p>
+            </div>
+
+            <div class="conversion-results">
+                <div id="length">
+                    <h3>Length (Meter/Feet)</h3>
+                    <p id="length-el"></p>
+                </div>
+
+                <div id="volume">
+                    <h3>Volume (Liters/Gallons)</h3>
+                    <p id="volume-el"></p>
+                </div>
+
+                <div id="mass">
+                    <h3>Mass (Kilograms/Pounds)</h3>
+                    <p id="mass-el"></p>
+                </div>
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+
+  </body>
+  </html>
